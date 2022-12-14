@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.header {
+  font-size: 50px;
+  font-family: 'Diplomata SC', cursive;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.landing-cards {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toppings-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 200px;
+  height: 300px;
+  padding: 30px;
+  text-shadow: 2px 2px 3px white;
+  background-image: url('images/toppings.jpg');
+  background-size: cover;
+  opacity: 75%;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgb(28, 17, 17);;
+}
+
+.pizza-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 200px;
+  height: 300px;
+  padding: 30px;
+  text-shadow: 2px 2px 3px white;
+  background-image: url('images/pizza.jpg');
+  background-size: cover;
+  opacity: 75%;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgb(28, 17, 17);;
+
+
+}

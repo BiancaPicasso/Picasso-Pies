@@ -1,10 +1,14 @@
-import React from 'react';
+import Home from "../server/routes/home/home.component";
+import Toppings from "./components/Toppings";
+import React from 'react'
+import { Routes, Route} from 'react-router-dom'
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+  return  (
+    <Routes>
+      <Route path='/' element={<Home /> } />
+      <Route path='/toppings' element={<Toppings />} />
+    </Routes>
   )
 }
 
